@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+strong {
+  font-weight: 700;
+}
+
+h1,
+.h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.btn {
+  border-radius: 0;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  padding: 1rem 3.5rem;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.strive-red {
+  color: #ef3d59;
+}
+
+.bg-strive-red {
+  background-color: #ef3d59;
+}
+
+.btn.bg-strive-red {
+  border-bottom: 4px solid #cc2a43;
+}
+
+.btn:hover.bg-strive-red {
+  background-color: #f7526b;
+}
+
+.bg-strive-dark {
+  color: white;
+  background-color: #181818;
+}
+
+.btn:hover.bg-strive-dark {
+  background-color: #272727;
+}
+
+header {
+  color: white;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  background-image: url(../Tavola-disegno-1-2x.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.ribbon.bg-strive-dark {
+  position: sticky;
+  top: 0;
+}
+
+.ribbon.bg-strive-dark h3 {
+  padding: 3rem 0;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+section.bg-strive-red h2 {
+  font-size: 4.5rem;
+}
+
+@media (min-width: 992px) {
+  section.bg-strive-red .info-content {
+    margin-right: 3rem;
+  }
+}
+
+section .info-box {
+  padding: 4rem 6rem;
+  flex-shrink: 0;
+  background-color: white;
+  border-radius: 20px;
+  color: #181818;
+}
+
+section.bg-strive-red ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+section.bg-strive-red h4 {
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+section.bg-strive-red .btn {
+  margin-top: 2rem;
+}
+
+section.apply-now button,
+section.apply-now input {
+  margin: auto;
+}
+
+section.apply-now input {
+  width: 50vw;
+  height: 77px;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+  border: 1px solid #949494;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+section.apply-now input::placeholder {
+  color: #333;
+}
+
+/* section.apply-now button {
+
+} */
